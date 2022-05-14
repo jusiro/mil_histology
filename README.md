@@ -43,7 +43,7 @@ Weakly supervised learning methods usually require large amounts od data to perf
 ![pc](https://github.com/jusiro/mil_histology/blob/main/images/proportion_method.png)
 
 ```
-python main.py --experiment_name instance_max_Constrained --aggregation max --mode instance --pMIL True --alpha_ce 1 --alpha_ic 0.1 --alpha_pc 0.01 --t_ic 15 --t_pc 1 --scheduler True --early_stopping True --criterion z --epochs 100
+python main.py --experiment_name instance_max_Constrained --aggregation max --mode instance --pMIL True --alpha_ce 1 --alpha_ic 0.1 --alpha_pc 1 --t_ic 15 --t_pc 5 --scheduler True --early_stopping True --criterion z --epochs 100
 ```
 
 Later, you can also train the previously-presented self-supervised Student model to refine the obtained model. Trained models are available from the following link: [models](https://cvblab.synology.me/PublicDatabases/SICAP_MIL_models.zip).
