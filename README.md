@@ -11,7 +11,7 @@ You can download it in the following link: [SICAP-MIL](https://cvblab.synology.m
 
 If you find this dataset useful for your research, please consider citing:
 
-**J. Silva-Rodríguez, A. Schmidt, M.A. Sales, R. Molina and V. Naranjo, "Proportion constrained weakly supervised histopathology image classification". Preprint (2022).**
+**J. Silva-Rodríguez, A. Schmidt, M.A. Sales, R. Molina and V. Naranjo, "Proportion constrained weakly supervised histopathology image classification", Computers in Biology and Medicine, vol. 147, p. 105714, 2022.** [(paper)](https://www.sciencedirect.com/science/article/pii/S0010482522004930)
 
 To use the methods introduced in this repository, we encourage to move the obtained folder to './data/'. 
 
@@ -35,7 +35,7 @@ python train_student.py --experiment_name instance_max
 
 This method is described in detail in the following article:
 
-**J. Silva-Rodríguez, A. Colomer, J. Dolz and V. Naranjo, "Self-Learning for Weakly Supervised Gleason Grading of Local Patterns," in IEEE Journal of Biomedical and Health Informatics, vol. 25, no. 8, pp. 3094-3104, Aug. 2021, doi: 10.1109/JBHI.2021.3061457.**
+**J. Silva-Rodríguez, A. Colomer, J. Dolz and V. Naranjo, "Self-Learning for Weakly Supervised Gleason Grading of Local Patterns," in IEEE Journal of Biomedical and Health Informatics, vol. 25, no. 8, pp. 3094-3104, 2021.** [(paper)](https://ieeexplore.ieee.org/abstract/document/9361085)[(arXiv)](https://arxiv.org/abs/2105.10420)
 
 ## Proportion Constraints
 Weakly supervised learning methods usually require large amounts od data to perform properly.In this project, we propose to introduce proportion priors per WSI as additional, weak information, to train realiable deep learning models. Concretely, we take advantadge of the Gleason scoring system, which defines a primary and secondary class per bag based on tissue proportions. Thus, we use inequality constraints to ensure that the percentage of positive predictions for the primary class is larger than the one for the secondary grade. Our formulation is flexible, and might deal with other problems, where more constraints are known regarding relative class proportions. You can train the proposed model using the following code.
@@ -50,7 +50,7 @@ Later, you can also train the previously-presented self-supervised Student model
 
 This method is described in detail in the following article:
 
-**J. Silva-Rodríguez, A. Schmidt, M.A. Sales, R. Molina and V. Naranjo, "Proportion constrained weakly supervised histopathology image classification". Preprint (2022).**
+**J. Silva-Rodríguez, A. Schmidt, M.A. Sales, R. Molina and V. Naranjo, "Proportion constrained weakly supervised histopathology image classification", Computers in Biology and Medicine, vol. 147, p. 105714, 2022.** [(paper)](https://www.sciencedirect.com/science/article/pii/S0010482522004930)
 
 ## Visualizations
 
@@ -63,4 +63,4 @@ python produce_visualizations.py --experiment_name instance_max_Constrained
 
 ## Contact
 For further questions or details, please directly reach out to Julio Silva-Rodríguez
-(jjsilva@upv.es/jusiro95@gmail.com)
+(jusiro95@gmail.com)
