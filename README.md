@@ -7,7 +7,7 @@ SICAP-MIL dataset is composed of 350 prostate Whole Slide Images (WSIs) at 10x r
 
 In addition, SICAP-MIL includes instance-level annotations, which allow to test the capability of MIL methods to leverage instance classifications in a weakly-supervised manner. To do so, annotated WSIs are kept into the test subset. Note that instance-level labels are obtained from pixel-level annotations done by expert pathologist. Non-cancerous patches are obtained only from benign WSIs, while cancerous patch-level labels are obtained by majority voting of segmentation masks.
 
-You can download it in the following link: [SICAP-MIL](https://1drv.ms/u/s!Ah2z1a0s4S4BgqZkH4S_2-JG23AzBA?e=GrVKzF)
+You can download it in the following link: [SICAP-MIL](https://1drv.ms/u/s!Ah2z1a0s4S4BgqZk1zWdVQwViPV9Fw)
 
 If you find this dataset useful for your research, please consider citing:
 
